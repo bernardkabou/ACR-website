@@ -1,0 +1,42 @@
+.gallery {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.carousel-section {
+    margin-bottom: 50px;
+}
+
+.carousel-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+.season-description {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.season-description p {
+    margin-bottom: 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
