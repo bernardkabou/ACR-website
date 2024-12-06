@@ -35,6 +35,73 @@ body{
     margin-right: 10px;
 }
 
+
+
+
+
+/* Style général du menu */
+nav {
+    display: flex; /* Utiliser flexbox pour disposer les éléments en ligne */
+    justify-content: space-around; /* Espace équitable entre les éléments */
+    align-items: center; /* Aligner verticalement les éléments */
+    list-style-type: none; /* Supprimer les puces des éléments de liste */
+    padding: 0; /* Enlever les marges/paddings par défaut */
+  }
+  
+  nav ul {
+    display: flex; /* S'assurer que les éléments de la liste sont en ligne */
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0 15px; /* Espacement horizontal entre les éléments */
+  }
+  
+  nav a {
+    text-decoration: none; /* Enlever les soulignements des liens */
+    color: black; /* Couleur du texte (changez selon votre design) */
+    font-size: 16px; /* Taille de police par défaut */
+  }
+  
+  /* Style pour tablettes */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column; /* Passer les éléments en colonne sur les tablettes */
+      align-items: flex-start; /* Aligner les éléments sur le côté gauche */
+    }
+  
+    nav li {
+      margin: 10px 0; /* Ajouter un espacement vertical */
+    }
+  
+    nav a {
+      font-size: 14px; /* Réduire la taille de la police sur les tablettes */
+    }
+  }
+  
+  /* Style pour téléphones mobiles */
+  @media (max-width: 480px) {
+    nav {
+      flex-direction: column; /* Les éléments en colonne */
+      align-items: flex-start; /* Alignement à gauche */
+    }
+  
+    nav li {
+      margin: 8px 0; /* Ajouter un espacement vertical pour chaque élément */
+    }
+  
+    nav a {
+      font-size: 12px; /* Réduire davantage la taille de la police sur les petits écrans */
+    }
+  }
+
+  
+
+
+
+
+
 .navbar {
     display: flex;
     flex: 1;
