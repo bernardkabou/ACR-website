@@ -7,9 +7,11 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-    min-height: 100vh;
-    background: url('img/photo1.PNG') no-repeat;
+body {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 }
 
@@ -233,6 +235,8 @@ body{
     padding: 20px;
     text-align: center;
     margin-top: 50px;
+    position: relative; /* Keep other elements relative to their parent */
+    z-index: 1; /* Ensure other elements are above the background */
 }
 
 .footer-content p {
