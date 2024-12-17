@@ -1,0 +1,5 @@
+vscode
+GitHub(deployment)
+netlify(hebergement)
+amen.fr (nom de domaine)
+MXtoolbox(adresse ip DNS)
